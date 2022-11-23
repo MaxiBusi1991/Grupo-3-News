@@ -38,8 +38,8 @@ content: "HARM EL SHEIJ.- Desde el inicio de la conferencia del clima de la ONU 
   return (
     <Container>
       <Row xs={2} md={4} lg={3} className="g-4">
-        {News.map((a, i) => (
-          <Articles a={a} key={'Articles' + i} />
+        {News.map((article, i) => (
+          <Articles article={article} key={'Articles' + i} />
         ))}
       </Row>
     </Container>
