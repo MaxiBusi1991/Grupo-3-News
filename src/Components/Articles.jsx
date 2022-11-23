@@ -1,17 +1,17 @@
 import { Container } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 
-const Articles = ({ article }) => {
+const Articles = ({ New }) => {
               return (
                 <Container>       
             <Card className="p-0">
             <Card.Img
                 variant="top"
-                src={article.url}
+                src={New.url}
                 className="p-3"
             />
             <Card.Body>
-                <Card.Title>{article.title}</Card.Title>
+                <Card.Title>{New.title}</Card.Title>
             </Card.Body>
             </Card>
                  </Container>
@@ -22,12 +22,13 @@ export default Articles;
 
 // import Card from 'react-bootstrap/Card';
 // import CardGroup from 'react-bootstrap/CardGroup';
-// // import Col from 'react-bootstrap/Col';
-// // import Row from 'react-bootstrap/Row';
+// import { Container } from 'react-bootstrap';
+// import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
 
-// function GroupExample() {
+// function Articles() {
 //   return (
-//      <Container Row xs={2} md={4} lg={3} className="g-4" mt={3}>        
+//      <Container Row xs={2} md={4} lg={3} mt={3}>        
 //     <CardGroup>
 //       <Card>
 //         <Card.Img variant="top" src="https://d3us6z9haan6vf.cloudfront.net/11-19-2022/t_37e47f27155743fba1e2502375a7f545_name_file_1280x720_2000_v3_1_.jpg" />
@@ -100,4 +101,4 @@ export default Articles;
 //   );
 // }
 
-// export default GroupExample;
+// export default Articles;
