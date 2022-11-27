@@ -15,7 +15,6 @@ const Main = () => {
       <Container fluid className="d-flex flex-column min-vh-100 px-0">
         <NavbarMain />
         <Header />
-        {/* <Articles/> */}
 			<ArticleList />
         <Footer />
       </Container>
